@@ -22,6 +22,8 @@ Template created and maintained by [Javi Rudolph, PhD](https://javirudolph.githu
 
 From now on, every change you commit rebuilds and publishes your site automatically.
 
+> **Skipped this step?** No problem. Your site still builds, but it won't go online until you turn this on. The **Actions** tab will remind you with a yellow note.
+
 ## 3. Customize your website (required)
 
 You can do all of this on GitHub: click a file, click the pencil icon ✏️ to edit, then **Commit changes**. Every file has instructions inside it, in comments that never show on your site.
@@ -35,11 +37,12 @@ You can do all of this on GitHub: click a file, click the pencil icon ✏️ to 
 
 ## 4. Check your site
 
-1. Click the **Actions** tab. A yellow dot means your site is building (1 to 2 minutes). A green check ✅ means it's live.
+1. Click the **Actions** tab. A yellow dot means your site is building (1 to 2 minutes). A green check ✅ means it's done.
 2. Visit `https://YOUR-USERNAME.github.io`.
 
+**Green check, but no website?** Click the latest run in the **Actions** tab and look for a yellow note. It means publishing isn't turned on yet: do step 2, then go to **Actions > Publish website > Run workflow**.
+
 **Red ❌?** Click it to see which step failed. Most often:
-- Publishing isn't set to **GitHub Actions** yet (step 2). Fix it, then go to **Actions > Publish website > Run workflow**.
 - A spacing or typo problem in `_quarto.yml`. Compare it with the original in this template.
 - A picture or file name that doesn't match exactly. `Me.JPG` and `me.jpg` are different names.
 
