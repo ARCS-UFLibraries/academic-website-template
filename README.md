@@ -155,8 +155,6 @@ RStudio has a **Git** tab (top right) for this:
 - [Sam Shanny-Csik](https://samanthacsik.github.io) ([source](https://github.com/samanthacsik/samanthacsik.github.io))
 - [Andrew Heiss](https://www.andrewheiss.com) ([source](https://github.com/andrewheiss/ath-quarto))
 
-This template's setup flow is modeled on [The Carpentries workshop template](https://github.com/carpentries/workshop-template).
-
 ## Getting help
 
 Open an issue in this repository, or book a consultation with UF Libraries ARCS: https://answers.uflib.ufl.edu/askarcs
